@@ -1,0 +1,279 @@
+[
+    {
+        "strand": 1,
+        "seq_region_name": "1",
+        "start": 2408634,
+        "input": "1 2408634 2408634 C/G +",
+        "allele_string": "C/G",
+        "most_severe_consequence": "missense_variant",
+        "transcript_consequences": [
+            {
+                "biotype": "protein_coding",
+                "impact": "MODERATE",
+                "codons": "Ggg/Cgg",
+                "polyphen_prediction": "benign",
+                "transcript_id": "ENST00000288774",
+                "consequence_terms": [
+                    "missense_variant"
+                ],
+                "polyphen_score": 0.009,
+                "cadd_raw": 0.720538,
+                "clinvar_omim_id": "614870&614871",
+                "protein_end": 140,
+                "cadd_phred": 7.568,
+                "protein_start": 140,
+                "gene_symbol_source": "HGNC",
+                "sift_score": 0.35,
+                "cdna_end": 480,
+                "cdna_start": 480,
+                "cds_end": 418,
+                "gene_symbol": "PEX10",
+                "gene_id": "ENSG00000157911",
+                "sift_prediction": "tolerated",
+                "revel": 0.064,
+                "gerp++_rs": 1.65,
+                "amino_acids": "G/R",
+                "hgnc_id": "HGNC:8851",
+                "variant_allele": "G",
+                "cds_start": 418,
+                "spliceai": {
+                    "DS_AG": 0,
+                    "SYMBOL": "PEX10",
+                    "DP_DL": 18,
+                    "DP_AL": -1,
+                    "DS_AL": 0,
+                    "DS_DL": 0.02,
+                    "DS_DG": 0,
+                    "DP_DG": -16,
+                    "DP_AG": 33
+                },
+                "strand": -1
+            },
+            {
+                "impact": "MODIFIER",
+                "biotype": "protein_coding",
+                "gene_symbol_source": "HGNC",
+                "gene_id": "ENSG00000157916",
+                "gene_symbol": "RER1",
+                "consequence_terms": [
+                    "downstream_gene_variant"
+                ],
+                "transcript_id": "ENST00000378512",
+                "cadd_raw": 0.720538,
+                "hgnc_id": "HGNC:30309",
+                "variant_allele": "G",
+                "cadd_phred": 7.568,
+                "strand": 1,
+                "distance": 4883
+            },
+            {
+                "gene_symbol_source": "HGNC",
+                "biotype": "protein_coding",
+                "impact": "MODIFIER",
+                "transcript_id": "ENST00000378513",
+                "consequence_terms": [
+                    "downstream_gene_variant"
+                ],
+                "gene_symbol": "RER1",
+                "gene_id": "ENSG00000157916",
+                "hgnc_id": "HGNC:30309",
+                "variant_allele": "G",
+                "cadd_raw": 0.720538,
+                "distance": 3192,
+                "strand": 1,
+                "cadd_phred": 7.568
+            },
+            {
+                "protein_start": 140,
+                "mane": [
+                    "MANE_Select"
+                ],
+                "cadd_phred": 7.568,
+                "clinvar_omim_id": "614870&614871",
+                "protein_end": 140,
+                "cadd_raw": 0.720538,
+                "polyphen_score": 0.005,
+                "transcript_id": "ENST00000447513",
+                "consequence_terms": [
+                    "missense_variant"
+                ],
+                "polyphen_prediction": "benign",
+                "impact": "MODERATE",
+                "codons": "Ggg/Cgg",
+                "biotype": "protein_coding",
+                "strand": -1,
+                "mane_select": "NM_002617.4",
+                "cds_start": 418,
+                "spliceai": {
+                    "DS_DL": 0.02,
+                    "DP_AG": 33,
+                    "DP_DG": -16,
+                    "DS_DG": 0,
+                    "DP_DL": 18,
+                    "DP_AL": -1,
+                    "SYMBOL": "PEX10",
+                    "DS_AG": 0,
+                    "DS_AL": 0
+                },
+                "amino_acids": "G/R",
+                "variant_allele": "G",
+                "hgnc_id": "HGNC:8851",
+                "gerp++_rs": 1.65,
+                "revel": 0.064,
+                "gene_symbol": "PEX10",
+                "gene_id": "ENSG00000157911",
+                "sift_prediction": "tolerated",
+                "cds_end": 418,
+                "cdna_start": 480,
+                "gene_symbol_source": "HGNC",
+                "sift_score": 0.35,
+                "cdna_end": 480
+            },
+            {
+                "spliceai": {
+                    "DS_DL": 0.02,
+                    "DP_AG": 33,
+                    "DS_DG": 0,
+                    "DP_DG": -16,
+                    "DP_DL": 18,
+                    "DP_AL": -1,
+                    "SYMBOL": "PEX10",
+                    "DS_AG": 0,
+                    "DS_AL": 0
+                },
+                "cds_start": 418,
+                "strand": -1,
+                "gerp++_rs": 1.65,
+                "variant_allele": "G",
+                "hgnc_id": "HGNC:8851",
+                "amino_acids": "G/R",
+                "sift_prediction": "tolerated",
+                "gene_symbol": "PEX10",
+                "gene_id": "ENSG00000157911",
+                "revel": 0.064,
+                "cdna_end": 456,
+                "sift_score": 0.35,
+                "gene_symbol_source": "HGNC",
+                "cds_end": 418,
+                "cdna_start": 456,
+                "cadd_phred": 7.568,
+                "protein_start": 140,
+                "cadd_raw": 0.720538,
+                "protein_end": 140,
+                "clinvar_omim_id": "614870&614871",
+                "consequence_terms": [
+                    "missense_variant"
+                ],
+                "transcript_id": "ENST00000507596",
+                "polyphen_score": 0.005,
+                "biotype": "protein_coding",
+                "impact": "MODERATE",
+                "codons": "Ggg/Cgg",
+                "polyphen_prediction": "benign"
+            },
+            {
+                "hgnc_id": "HGNC:30309",
+                "variant_allele": "G",
+                "mane_select": "NM_007033.5",
+                "strand": 1,
+                "gene_symbol_source": "HGNC",
+                "gene_id": "ENSG00000157916",
+                "gene_symbol": "RER1",
+                "cadd_raw": 0.720538,
+                "cadd_phred": 7.568,
+                "mane": [
+                    "MANE_Select"
+                ],
+                "distance": 3198,
+                "biotype": "protein_coding",
+                "impact": "MODIFIER",
+                "consequence_terms": [
+                    "downstream_gene_variant"
+                ],
+                "transcript_id": "ENST00000605895"
+            }
+        ],
+        "colocated_variants": [
+            {
+                "clin_sig": [
+                    "uncertain_significance",
+                    "likely_benign"
+                ],
+                "var_synonyms": {
+                    "ClinVar": [
+                        "RCV000309150",
+                        "VCV000296280",
+                        "RCV002520466",
+                        "RCV002480074",
+                        "RCV001272167",
+                        "RCV000676044",
+                        "RCV001037362",
+                        "RCV003957547"
+                    ]
+                },
+                "clin_sig_allele": "G:uncertain_significance;G:likely_benign",
+                "phenotype_or_disease": 1,
+                "seq_region_name": "1",
+                "strand": 1,
+                "id": "rs76530653",
+                "end": 2408634,
+                "frequencies": {
+                    "G": {
+                        "gnomadg_fin": 0.00009406,
+                        "gnomade_asj": 0,
+                        "eas": 0,
+                        "sas": 0,
+                        "gnomadg_mid": 0,
+                        "gnomade_sas": 0,
+                        "gnomade_afr": 0.00005978,
+                        "amr": 0.0014,
+                        "gnomade_remaining": 0.0006307,
+                        "gnomadg_eas": 0,
+                        "gnomadg_nfe": 0.0005587,
+                        "gnomade_eas": 0,
+                        "gnomadg_ami": 0,
+                        "gnomade_amr": 0.001682,
+                        "gnomade_fin": 0.0001167,
+                        "gnomadg_remaining": 0.000473,
+                        "gnomade": 0.0006342,
+                        "eur": 0.002,
+                        "gnomadg_asj": 0,
+                        "gnomadg": 0.0004595,
+                        "gnomadg_amr": 0.001502,
+                        "gnomade_mid": 0,
+                        "gnomadg_afr": 0.0001684,
+                        "af": 0.0006,
+                        "gnomadg_sas": 0,
+                        "gnomade_nfe": 0.0007235,
+                        "afr": 0
+                    }
+                },
+                "allele_string": "C/G",
+                "start": 2408634
+            }
+        ],
+        "end": 2408634,
+        "id": "1_2408634_C/G",
+        "assembly_name": "GRCh38"
+    },
+    {
+        "input": "1 13000000 13000000 C/G +",
+        "end": 13000000,
+        "allele_string": "C/G",
+        "id": "1_13000000_C/G",
+        "start": 13000000,
+        "seq_region_name": "1",
+        "assembly_name": "GRCh38",
+        "most_severe_consequence": "intergenic_variant",
+        "strand": 1,
+        "intergenic_consequences": [
+            {
+                "impact": "MODIFIER",
+                "variant_allele": "G",
+                "consequence_terms": [
+                    "intergenic_variant"
+                ]
+            }
+        ]
+    }
+]

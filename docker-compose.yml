@@ -1,0 +1,52 @@
+#version: '3.8'
+
+services:
+  mariadb:
+    image: mariadb:10.6
+    container_name: annotation_mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password_2024
+      MYSQL_DATABASE: AnnotationCache
+      MYSQL_USER: annotation_user
+      MYSQL_PASSWORD: secure_pass_2024
+    ports:
+      - "3307:3306"
+    volumes:
+      - mariadb_data:/var/lib/mysql
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      #test: ["CMD", "mysqladmin", "ping", "--silent"]
+      test: ["CMD", "mysqladmin", "ping", "-u", "annotation_user", "-psecure_pass_2024"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    networks:
+      - annotation_network
+
+  api:
+    build: .
+    container_name: annotation_api
+    environment:
+      DB_HOST: mariadb
+      DB_USER: annotation_user
+      DB_PASSWORD: secure_pass_2024
+      DB_NAME: AnnotationCache
+      FLASK_ENV: development
+    ports:
+      - "5001:5001"
+    depends_on:
+      mariadb:
+        condition: service_healthy
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: python -m api.server
+    networks:
+      - annotation_network
+
+volumes:
+  mariadb_data:
+
+networks:
+  annotation_network:
+    driver: bridge

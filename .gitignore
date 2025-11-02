@@ -1,0 +1,22 @@
+#GIT-Ignore following files
+
+Data/clinvar.vcf.gz
+Data/clinvar.vcf.gz.tbi
+MachineLearning/RandomForest/Random_forest_model.pkl
+*.pkl
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter notebooks (if not needed in version control)
+*.ipynb
+
+# Docker
+.dockerignore
