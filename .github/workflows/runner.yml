@@ -32,7 +32,8 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.13'   # pin to a supported minor (or '3.11' / '3.11.8' for an exact patch)
+          check-latest: false
 
       - name: Install dependencies
         run: |
